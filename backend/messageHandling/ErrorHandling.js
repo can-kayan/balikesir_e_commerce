@@ -1,0 +1,27 @@
+const errorHandling={
+    "authorizationNotValid":"Authorization is not valid.",
+    "userOrPasswordIncorrect":"Incorrect password or email.",
+    "passwordIncorrect":"Incorrect password",
+    "paymentTransactionIdRequired":"Payment TransactionId is required.",
+    "invalidCancelPayment":"Invalid cancel payment reason.",
+    "paymentIdRequired":"Payment id is required.",
+    "initializationFailed":"Payment cant be starred because initialize is failed.",
+    "cardRequired":"Card is reuired.",
+    "cardIdRequired":"Card id is required.",
+    "cardNotFound":"Card not found.",
+    "cardIsCompleted":"Card is completed.",
+    "cardIndexRequired":"Card index is required.",
+    "cardAvailable":"No registered card available.",
+    "cardIndexInvalid":"Card doesnt exists.",
+    "cardTokenRequired":"Card token is reuired.",
+    "missingParameter":"Missing parameters.",
+    "userHashNoCard":"User has no credit card.",
+    "paymentSuccessIdRequired":"Payment SuccessId is required.",
+    "anUnexpectedErrorOccurred":"An unexpected error occurred.",
+    "emailIsInUse":"Email is in use.",
+    "badFileRequest":"The specified url was not found.",
+    "accessDenied":"Access denied.",
+    "userRecordNotFound":"User record not found.",
+    "anAccountCanEnterAtMostOneUserInformation":"An account can enter at most one user information."
+}
+module.exports=errorHandling
